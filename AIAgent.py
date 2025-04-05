@@ -10,6 +10,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.schema import Document
 import tempfile
 import json
+import openai
 
 st.set_page_config(page_title="📈 Campaign Advisor", layout="wide")
 st.title("📊 Interactive Campaign Performance Analyzer")
