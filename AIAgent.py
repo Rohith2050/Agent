@@ -14,7 +14,7 @@ import json
 st.set_page_config(page_title="📈 Campaign Advisor", layout="wide")
 st.title("📊 Interactive Campaign Performance Analyzer")
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
 
