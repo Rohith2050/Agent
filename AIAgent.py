@@ -14,7 +14,7 @@ import json
 st.set_page_config(page_title="📈 Campaign Advisor", layout="wide")
 st.title("📊 Interactive Campaign Performance Analyzer")
 
-OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+OPENROUTER_API_KEY = st.secrets["api_keys"]["openrouter"]
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
 
